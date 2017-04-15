@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="DB-lednice">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>com.cvut.fel.horovtom.entities.DifficultyEntity</class>
+        <class>com.cvut.fel.horovtom.entities.FoodEntity</class>
+        <class>com.cvut.fel.horovtom.entities.FoodTypeEntity</class>
+        <class>com.cvut.fel.horovtom.entities.FridgeEntity</class>
+        <class>com.cvut.fel.horovtom.entities.IngredientEntity</class>
+        <class>com.cvut.fel.horovtom.entities.RecipeEntity</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:postgresql://horton.elephantsql.com:5432/wjttfmtg"/>
+            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
+            <property name="hibernate.connection.username" value="wjttfmtg"/>
+            <property name="hibernate.connection.password" value="7l47739-BO5w3se5DPSjYEhnx2ZCuosF"/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>

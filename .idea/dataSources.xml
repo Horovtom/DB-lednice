@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="ElephantSQL-lednice" uuid="8af89395-1dc9-4aae-96c6-cda20b86c8fc">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://horton.elephantsql.com:5432/wjttfmtg</jdbc-url>
+    </data-source>
+  </component>
+</project>
